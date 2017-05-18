@@ -71,12 +71,15 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 4px double white;
+  transition: all .8s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(360deg);
+  border: 4px double #666;
+  border-radius: 5%;
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -206,9 +209,9 @@ a.social:hover {
 
 }
 
-/* Styles for Experience page */
+/* Styles for images */
 
-.expimg {
+.mainimg {
   max-width: 100%;
   height: auto;
 }
